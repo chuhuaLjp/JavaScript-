@@ -12,8 +12,6 @@ class SingleDogOne {
 const s1 = new SingleDogOne();
 const s2 = new SingleDogOne();
 
-console.log(s1 === s2); // false
-
 //而单例模式想要做到的是，不管我们尝试去创建多少次，它都只给你返回第一次所创建的那唯一的一个实例。
 //那就需要构造函数具备判断自己是否已经创建过一个实例的能力：
 
