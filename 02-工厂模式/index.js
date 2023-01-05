@@ -61,3 +61,5 @@ function FactoryTwo(name, age, career) {
   }
   return new User(name, age, career, work);
 }
+
+//抽离共性，分离个性
